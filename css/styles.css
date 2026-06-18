@@ -1,0 +1,299 @@
+/* ===================================================== */
+/* CONFIGURACION GENERAL */
+/* ===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:12px;
+}
+
+/* ===================================================== */
+/* GRID PRINCIPAL */
+/* ===================================================== */
+
+.grid-container{
+
+    display:grid;
+
+    grid-template-columns:
+        240px
+        165px
+        165px
+        235px
+        135px
+        135px;
+
+    grid-template-rows:
+        155px
+        70px
+        145px
+        145px;
+
+    gap:10px;
+}
+
+/* ===================================================== */
+/* ESTILO GENERAL DE TODOS LOS BLOQUES */
+/* ===================================================== */
+
+.card{
+
+    border-radius:16px;
+    overflow:hidden;
+    border:4px solid white;
+    position:relative;
+}
+
+/* ===================================================== */
+/* UBICACIONES */
+/* ===================================================== */
+
+.expediente{
+    grid-column:1;
+    grid-row:1 / span 2;
+    background:#9a9a9a;
+}
+
+.modelo3d{
+    grid-column:1;
+    grid-row:3;
+}
+
+.slider-a{
+    grid-column:1;
+    grid-row:4;
+    background:white;
+}
+
+.cinefilos{
+    grid-column:2 / span 2;
+    grid-row:1;
+    background:#fff;
+}
+
+.slider-b{
+    grid-column:4;
+    grid-row:1;
+}
+
+.sobre-mi{
+    grid-column:5 / span 2;
+    grid-row:1;
+    background:#f2f2f2;
+}
+
+.hero{
+    grid-column:2 / span 3;
+    grid-row:2 / span 2;
+    background:#f2f2f2;
+}
+
+.proceso{
+    grid-column:5 / span 2;
+    grid-row:2;
+}
+
+.slider-c{
+    grid-column:5;
+    grid-row:3;
+}
+
+.slider-d{
+    grid-column:6;
+    grid-row:3;
+}
+
+.slider-e{
+    grid-column:2;
+    grid-row:4;
+}
+
+.slider-f{
+    grid-column:3;
+    grid-row:4;
+}
+
+.inspiracion{
+    grid-column:2 / span 2;
+    grid-row:5;
+}
+
+.dark-image{
+    grid-column:4;
+    grid-row:4 / span 2;
+}
+
+.final-product{
+    grid-column:5 / span 2;
+    grid-row:4 / span 2;
+}
+
+/* ===================================================== */
+/* IMAGENES */
+/* ===================================================== */
+
+.image-wrapper{
+    width:100%;
+    height:80%;
+}
+
+.image-wrapper img,
+.dark-image img,
+.final-product img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+    border-radius:12px;
+}
+
+/* ===================================================== */
+/* EXPEDIENTE */
+/* ===================================================== */
+
+.card-title{
+
+    height:20%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:30px;
+    font-weight:700;
+}
+
+/* ===================================================== */
+/* CINEFILOS */
+/* ===================================================== */
+
+.top-label{
+
+    height:20%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* ===================================================== */
+/* SOBRE MI */
+/* ===================================================== */
+
+.sobre-content{
+
+    width:100%;
+    height:100%;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.small-text{
+    font-weight:bold;
+    font-size:20px;
+}
+
+.logo-text{
+    font-size:90px;
+}
+
+/* ===================================================== */
+/* BUTACA MK */
+/* ===================================================== */
+
+.hero{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+
+.hero-small{
+
+    font-size:30px;
+    font-weight:700;
+}
+
+.hero-big{
+
+    font-size:150px;
+    font-weight:900;
+}
+
+/* ===================================================== */
+/* BOTONES TEXTO */
+/* ===================================================== */
+
+.text-card{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:black;
+    color:white;
+
+    text-decoration:none;
+
+    font-size:26px;
+    font-weight:700;
+}
+
+.text-light{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#f2f2f2;
+
+    text-decoration:none;
+
+    color:black;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* ===================================================== */
+/* CARRUSELES */
+/* ===================================================== */
+
+.slider{
+
+    position:relative;
+    background:black;
+}
+
+.slider img{
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    opacity:0;
+
+    transition:.8s;
+
+    border-radius:12px;
+}
+
+.slider img.active{
+    opacity:1;
+}
