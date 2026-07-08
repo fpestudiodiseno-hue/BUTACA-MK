@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<div id="page-transition"></div>
+
 <body>
 
     <!-- ===================================================== -->
@@ -36,14 +38,14 @@
         <!-- ===================================================== -->
         <!-- EXPEDIENTE -->
         <!-- ===================================================== -->
-        <a href="pages/galeria.html" class="card text-card expediente">
+        <a href="pages/galeria.html?tab=expediente" class="card text-card expediente">
             EXPEDIENTE
         </a>
 
         <!-- ===================================================== -->
         <!-- MODELO 3D -->
         <!-- ===================================================== -->
-        <a href="modelo3d.html" class="card text-card modelo3d">
+        <a href="pages/galeria.html?tab=modelado3d" class="card text-card modelo3d">
             MODELO 3D
         </a>
 
@@ -65,7 +67,7 @@
         <!-- ===================================================== -->
         <!-- CINEFILOS -->
         <!-- ===================================================== -->
-        <a href="cinefilos.html" class="card text-card cinefilos">
+        <a href="pages/galeria.html?tab=cinefilos" class="card text-card cinefilos tab2-btn">
             CINEFILOS
         </a>
 
@@ -75,7 +77,7 @@
         <!-- ===================================================== -->
         <section class="card slider slider-b">
 
-            <img class="active" src="assets/slider2/01.jpg">
+            <img class="active" src="assets/slider2/01.png">
             <img src="assets/slider2/02.jpg">
             <img src="assets/slider2/03.jpg">
             <img src="assets/slider2/04.jpg">
@@ -98,7 +100,7 @@
                 <!-- ===================================================== -->
         <!-- INSPIRACION -->
         <!-- ===================================================== -->
-        <a href="inspiracion.html" class="card text-light inspiracion">
+        <a href="pages/galeria.html?tab=inspiracion" class="card text-light inspiracion">
             INSPIRACIÓN
         </a>
 
@@ -139,7 +141,7 @@
         <!-- ===================================================== -->
         <!-- SOBRE MI -->
         <!-- ===================================================== -->
-        <a href="sobre-mi.html" class="card text-light sobre-mi">
+        <a href="pages/galeria.html?tab=sobremi" class="card text-light sobre-mi">
 
                 <span class="small-text">
                     SOBRE MI
@@ -156,7 +158,7 @@
         <!-- BLOQUE CENTRAL -->
         <!-- BUTACA MK -->
         <!-- ===================================================== -->
-        <section class="card hero">
+        <a href="pages/galeria.html" class="card text-light hero">
 
             <span class="hero-small">
                 BUTACA
@@ -166,13 +168,13 @@
                 MK
             </span>
 
-        </section>
+        </a>
 
 
         <!-- ===================================================== -->
         <!-- PROCESO -->
         <!-- ===================================================== -->
-        <a href="proceso.html" class="card text-card proceso">
+        <a href="pages/galeria.html?tab=proceso" class="card text-card proceso">
             PROCESO
         </a>
 
@@ -182,17 +184,20 @@
         <section class="card slider slider-f">
 
             <img class="active" src="assets/slider6/24.jpg">
-            <img src="assets/slider6/2.jpg">
-            <img src="assets/slider6/3.jpg">
+            <img src="/pages/assets2/proceso/16.jpg">
+            <img src="/pages/assets2/proceso/18.jpg">
+            <img src="/pages/assets2/proceso/19.jpg">
+            <img src="/pages/assets2/proceso/20.jpg">
 
         </section>
 
         <!-- ===================================================== -->
         <!-- slider procesos 2 -->
         <!-- ===================================================== -->
-        <section class="card dark-image">
+        <section class="card slider slider slider-g">
 
-            <img src="assets/inspiracion.jpg" alt="">
+            <img src="/pages/assets2/proceso/21.jpg">
+            <img src="/pages/assets2/proceso/22.jpg">
 
         </section>
 
@@ -200,15 +205,19 @@
         <!-- ===================================================== -->
         <!-- IMAGEN PRODUCTO FINAL -->
         <!-- ===================================================== -->
-        <section class="card final-product">
+        <section class="card slider slider slider-h">
 
-            <img src="assets/producto.jpg" alt="">
+            <img src="assets/slider7/04.jpeg">
+            <img src="assets/slider7/01.jpeg">
+            <img src="assets/slider7/02.jpeg">
+            <img src="assets/slider7/03.jpeg">
 
         </section>
 
     </main>
 
     <script src="js/main.js"></script>
+    <script src="/js/pagetransition.js"></script>
 
 </body>
 
