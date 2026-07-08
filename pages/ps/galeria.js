@@ -1,7 +1,7 @@
 const galerias = {
 
     cinefilos:[
-        "/pages/ps/assets2/cinefilos1/01.jpg",
+        "BUTAKA-MK/pages/ps/assets2/cinefilos1/01.jpg",
         "/pages/ps/assets2/cinefilos1/02.jpg",
         "/pages/ps/assets2/cinefilos1/03.jpg",
         "/pages/ps/assets2/cinefilos1/04.jpg",
