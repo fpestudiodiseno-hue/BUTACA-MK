@@ -11,47 +11,67 @@
 
 </head>
 
+<div id="page-transition"></div>
+
 <body>
 
-<div class="contenedor">
+<div class="layout">
 
     <!-- ====================================== -->
     <!-- MENU SUPERIOR -->
     <!-- ====================================== -->
 
-    <nav class="tabs">
+    <!-- MENU -->
 
-        <button class="tab-btn"
-                data-tab="cinefilos">
+    <aside class="sidebar">
+
+        <!-- LOGO UNIVERSIDAD -->
+
+        <img
+            class="logo-u"
+            src="assets2/logos1/TOULOUSE-logo-1.jpg"
+            alt="">
+
+        <!-- MENU -->
+
+        <nav class="tabs">
+
+            <button class="tab-btn" data-tab="cinefilos">
                 CINEFILOS
-        </button>
+            </button>
 
-        <button class="tab-btn"
-                data-tab="inspiracion">
+            <button class="tab-btn" data-tab="inspiracion">
                 INSPIRACIÓN
-        </button>
+            </button>
 
-        <button class="tab-btn"
-                data-tab="expediente">
+            <button class="tab-btn" data-tab="expediente">
                 EXPEDIENTE
-        </button>
+            </button>
 
-        <button class="tab-btn"
-                data-tab="proceso">
+            <button class="tab-btn" data-tab="proceso">
                 PROCESO
-        </button>
+            </button>
 
-        <button class="tab-btn"
-                data-tab="modelado3d">
+            <button class="tab-btn" data-tab="modelado3d">
                 MODELO 3D
-        </button>
+            </button>
 
-        <button class="tab-btn"
-                data-tab="sobremi">
+            <button class="tab-btn" data-tab="sobremi">
                 SOBRE MI
-        </button>
+            </button>
 
-    </nav>
+        </nav>
+
+        <!-- LOGO BUTACA -->
+
+        <a href="/index.html"
+           class="home-logo">
+
+            <img src="assets2/logos1/mk-logo-1.jpg">
+
+        </a>
+
+    </aside>
 
     <!-- ====================================== -->
     <!-- SLIDER PRINCIPAL -->
@@ -83,6 +103,7 @@
 </div>
 
 <script src="galeria.js"></script>
+<script src="/js/pagetransition.js"></script>
 
 </body>
 
