@@ -10,9 +10,9 @@ body{
 
     font-family:Arial, Helvetica, sans-serif;
 
-    min-height:100vh;
+    min-height:90vh;
 
-    padding:12px;
+    padding:0px;
 
     
 }
@@ -67,15 +67,17 @@ body{
 
     position:relative;
 
-    width:100%;
+    width:98%;
 
-    height:90vh;
+    height:96vh;
 
-    border-radius:12px;
+    border-radius:20px;
 
     overflow:hidden;
 
-    border:4px solid white;
+    border:3px solid white;
+
+    margin: 1%;
 }
 
 .slider-container img{
@@ -101,7 +103,7 @@ body{
 
     background:transparent;
 
-    color:white;
+    color:rgb(255, 255, 255);
 
     font-size:60px;
 
@@ -139,12 +141,179 @@ body{
 
     border-radius:50%;
 
-    border:2px solid white;
+    border:2px solid rgb(255, 255, 255);
 
     cursor:pointer;
 }
 
 .dot.active{
 
-    background:white;
+    background:rgb(255, 255, 255);
 }
+
+.layout{
+
+    display:grid;
+
+    grid-template-columns:
+
+        240px
+
+        1fr;
+
+    gap:25px;
+
+    height:100vh;
+
+}
+
+.sidebar{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:80px 0;
+
+    margin-left: 17%;
+
+}
+
+
+.tabs{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    width:100%;
+
+}
+
+.tab-btn{
+
+    width:100%;
+
+    height:55px;
+
+    border-radius:16px;
+
+    background:#111;
+
+    color:white;
+
+    border:3px solid white;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.tab-btn.active{
+
+    background:white;
+
+    color:black;
+
+}
+
+.home-logo{
+
+    width:180px;
+
+    transition:.3s;
+
+    
+
+}
+
+.home-logo img{
+
+    width:100%;
+
+}
+
+.home-logo:hover{
+
+    transform:scale(1.05);
+
+}
+
+.logo-u{
+
+    width:150px;
+
+    margin-bottom:00px;
+
+}
+
+/* ======================================= */
+/* TRANSICIÓN TIPO MUBI */
+/* ======================================= */
+
+html{
+
+    background:#000;
+
+}
+
+body{
+
+    opacity:0;
+
+    transform:scale(0.99);
+
+    transition:
+        opacity .44s ease,
+        transform .55s ease;
+
+}
+
+body.page-loaded{
+
+    opacity:1;
+
+    transform:scale(1);
+
+}
+
+body.page-leaving{
+
+    opacity:0;
+
+    transform:scale(1.01);
+
+}
+
+#page-transition{
+
+    position:fixed;
+
+    inset:0;
+
+    background:black;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:opacity .10s ease;
+
+    z-index:99999;
+
+}
+
+#page-transition.active{
+
+    opacity:1;
+
+}
+
+
