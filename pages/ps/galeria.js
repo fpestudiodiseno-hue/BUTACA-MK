@@ -45,8 +45,7 @@ const galerias = {
     ],
 
     sobremi:[
-        "assets/sobremi/1.jpg",
-        "assets/sobremi/2.jpg"
+        "ps/assets2/sobremi/300.jpg"
     ]
 
 };
