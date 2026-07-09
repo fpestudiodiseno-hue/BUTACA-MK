@@ -2,46 +2,46 @@ const galerias = {
 
     cinefilos:[
         "ps/assets2/cinefilos1/01.jpg",
-        "/pages/ps/assets2/cinefilos1/02.jpg",
-        "/pages/ps/assets2/cinefilos1/03.jpg",
-        "/pages/ps/assets2/cinefilos1/04.jpg",
+        "ps/assets2/cinefilos1/02.jpg",
+        "ps/assets2/cinefilos1/03.jpg",
+        "ps/assets2/cinefilos1/04.jpg",
     ],
 
     inspiracion:[
         
-        "/pages/ps/assets2/inspiracion2/21.jpg",
-        "/pages/ps/assets2/inspiracion2/22.jpg",
-        "/pages/ps/assets2/inspiracion2/23.jpg",
-        "/pages/ps/assets2/inspiracion3/24.jpg",
-        "/pages/ps/assets2/inspiracion3/25.jpg",
-        "/pages/ps/assets2/inspiracion3/27.jpg",
+        "ps/assets2/inspiracion2/21.jpg",
+        "ps/assets2/inspiracion2/22.jpg",
+        "ps/assets2/inspiracion2/23.jpg",
+        "ps/assets2/inspiracion3/24.jpg",
+        "ps/assets2/inspiracion3/25.jpg",
+        "ps/assets2/inspiracion3/27.jpg",
     ],
 
     expediente:[
-        "/pages/ps/assets2/expediente/7.jpg",
-        "/pages/ps/assets2/expediente/8.jpg",
-        "/pages/ps/assets2/expediente/9.jpg",
-        "/pages/ps/assets2/expediente/10.jpg",
-        "/pages/ps/assets2/expediente/11.jpg",
-        "/pages/ps/assets2/expediente/12.jpg",
-        "/pages/ps/assets2/expediente/13.jpg",
-        "/pages/ps/assets2/expediente/14.jpg"
+        "ps/assets2/expediente/7.jpg",
+        "ps/assets2/expediente/8.jpg",
+        "ps/assets2/expediente/9.jpg",
+        "ps/assets2/expediente/10.jpg",
+        "ps/assets2/expediente/11.jpg",
+        "ps/assets2/expediente/12.jpg",
+        "ps/assets2/expediente/13.jpg",
+        "ps/assets2/expediente/14.jpg"
     ],
 
     proceso:[
-        "/pages/ps/assets2/proceso/16.jpg",
-        "/pages/ps/assets2/proceso/18.jpg",
-        "/pages/ps/assets2/proceso/19.jpg",
-        "/pages/ps/assets2/proceso/20.jpg",
-        "/pages/ps/assets2/proceso/21.jpg",
-        "/pages/ps/assets2/proceso/22.jpg"
+        "ps/assets2/proceso/16.jpg",
+        "ps/assets2/proceso/18.jpg",
+        "ps/assets2/proceso/19.jpg",
+        "ps/assets2/proceso/20.jpg",
+        "ps/assets2/proceso/21.jpg",
+        "ps/assets2/proceso/22.jpg"
     ],
 
     modelado3d:[
-        "/pages/ps/assets2/modelado3d/23.jpg",
-        "/pages/ps/assets2/modelado3d/24.jpg",
-        "/pages/ps/assets2/modelado3d/25.jpg",
-        "/pages/ps/assets2/modelado3d/26.jpg"
+        "ps/assets2/modelado3d/23.jpg",
+        "ps/assets2/modelado3d/24.jpg",
+        "ps/assets2/modelado3d/25.jpg",
+        "ps/assets2/modelado3d/26.jpg"
     ],
 
     sobremi:[
